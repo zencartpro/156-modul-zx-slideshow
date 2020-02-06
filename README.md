@@ -1,6 +1,10 @@
 # 156-modul-zx-slideshow
 ZX Slideshow multilanguage für Zen Cart 1.5.6 deutsch
 
+Hinweis: 
+Freigegebene getestete Versionen für den Einsatz in Livesystemen ausschließlich unter Releases herunterladen:
+https://github.com/zencartpro/156-modul-zx-slideshow/releases
+
 Dieses Slideshow Modul für die Startseite verwendet den populären jQuery Nivo Slider.
 Über den Zen Cart Bannermanager können Sie bis zu 20 Bilder für eine Slideshow auf der Startseite integrieren. Es ist also alles via Zen Cart Administration steuerbar.
 Diese angepasste Version des englischen Originalmoduls erlaubt die Verwendung unterschiedlicher Bilder für verschiedene Sprachen im Shop. 
