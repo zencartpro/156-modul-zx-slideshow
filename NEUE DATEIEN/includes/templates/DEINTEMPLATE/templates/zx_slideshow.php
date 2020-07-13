@@ -1,7 +1,7 @@
 <script language="javascript" type="text/javascript" src="<?php echo($template->get_template_dir('jquery.nivo.slider.pack.js',DIR_WS_TEMPLATE, $current_page_base,'jscript'). '/jquery.nivo.slider.pack.js'); ?>"></script>
 
 <script language="javascript" type="text/javascript">
-jQuery(window).load(function() {
+    jQuery(window).on("load",function(){
         jQuery('#slider').nivoSlider({
 			effect: '<?php echo ZX_SLIDESHOW_EFFECT; ?>',
 			animSpeed: <?php echo ZX_SLIDESHOW_ANIM_SPEED; ?>,

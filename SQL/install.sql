@@ -1,5 +1,5 @@
 ##################################################################
-# ZX Slideshow 2.5 Multilanguage Install - 2019-06-30 - webchills
+# ZX Slideshow 2.6.0 Multilanguage Install - 2020-07-13 - webchills
 ##################################################################
 
 INSERT INTO configuration_group (configuration_group_title, configuration_group_description, sort_order, visible) VALUES
@@ -37,7 +37,7 @@ INSERT INTO configuration (configuration_title, configuration_key, configuration
 ('Banner Display Groups - Slide18', 'ZX_SLIDESHOW_BANNERS_GROUP_SET26', 'slide18', 'Slide 18', @gid, 27, NOW(), NULL, NULL),
 ('Banner Display Groups - Slide19', 'ZX_SLIDESHOW_BANNERS_GROUP_SET27', 'slide19', 'Slide 19', @gid, 28, NOW(), NULL, NULL),
 ('Banner Display Groups - Slide20', 'ZX_SLIDESHOW_BANNERS_GROUP_SET28', 'slide20', 'Slide 20', @gid, 29, NOW(), NULL, NULL),
-('ZX Slideshow Version', 'ZX_SLIDESHOW_VERSION', '2.5', 'Currently using: <strong>2.3</strong>', @gid, 30, NOW(), NULL, 'trim(');
+('ZX Slideshow Version', 'ZX_SLIDESHOW_VERSION', '2.6.0', 'Currently using: <strong>2.6.0</strong>', @gid, 30, NOW(), NULL, 'trim(');
 
 ##############################
 # Add values for German admin
@@ -77,7 +77,7 @@ REPLACE INTO configuration_language (configuration_title, configuration_key, con
 ('Banner Anzeigengruppe - Bild 18', 'ZX_SLIDESHOW_BANNERS_GROUP_SET26', 'Bild 18',	43),
 ('Banner Anzeigengruppe - Bild 19', 'ZX_SLIDESHOW_BANNERS_GROUP_SET27', 'Bild 19', 43),
 ('Banner Anzeigengruppe - Bild 20', 'ZX_SLIDESHOW_BANNERS_GROUP_SET28', 'Bild 20',	43),
-('ZX Slideshow Version', 'ZX_SLIDESHOW_VERSION', 'Derzeit nutzen Sie <b>2.5</b>',	43);
+('ZX Slideshow Version', 'ZX_SLIDESHOW_VERSION', 'Derzeit nutzen Sie <b>2.6.0</b>',	43);
 
 ###################################
 # Register for Admin Access Control
